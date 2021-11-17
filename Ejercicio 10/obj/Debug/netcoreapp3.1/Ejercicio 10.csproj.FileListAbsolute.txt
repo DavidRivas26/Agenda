@@ -15,3 +15,8 @@ C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ej
 C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.pdb
 C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.genruntimeconfig.cache
 C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio_10.FrmRegistro.resources
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Datos.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Logica.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Datos.pdb
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Logica.pdb
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.csproj.CopyComplete

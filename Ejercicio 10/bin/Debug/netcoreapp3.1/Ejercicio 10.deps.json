@@ -7,14 +7,38 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Ejercicio 10/1.0.0": {
+        "dependencies": {
+          "Datos": "1.0.0",
+          "Logica": "1.0.0"
+        },
         "runtime": {
           "Ejercicio 10.dll": {}
+        }
+      },
+      "Datos/1.0.0": {
+        "runtime": {
+          "Datos.dll": {}
+        }
+      },
+      "Logica/1.0.0": {
+        "runtime": {
+          "Logica.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Ejercicio 10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Logica/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

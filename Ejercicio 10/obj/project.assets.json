@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Datos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Datos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Datos.dll": {}
+        }
+      },
+      "Logica/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Logica.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Logica.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Datos/1.0.0": {
+      "type": "project",
+      "path": "../Datos/Datos.csproj",
+      "msbuildProject": "../Datos/Datos.csproj"
+    },
+    "Logica/1.0.0": {
+      "type": "project",
+      "path": "../Logica/Logica.csproj",
+      "msbuildProject": "../Logica/Logica.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Datos >= 1.0.0",
+      "Logica >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rafae\\.nuget\\packages\\": {}
@@ -33,7 +68,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rafae\\source\\repos\\Ejercicio 10\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\rafae\\source\\repos\\Ejercicio 10\\Datos\\Datos.csproj"
+            },
+            "C:\\Users\\rafae\\source\\repos\\Ejercicio 10\\Logica\\Logica.csproj": {
+              "projectPath": "C:\\Users\\rafae\\source\\repos\\Ejercicio 10\\Logica\\Logica.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
