@@ -1,0 +1,17 @@
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Ejercicio 10.exe
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Ejercicio 10.deps.json
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Ejercicio 10.runtimeconfig.json
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Ejercicio 10.runtimeconfig.dev.json
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Ejercicio 10.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Ejercicio 10.pdb
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.csproj.AssemblyReference.cache
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio_10.FrmInicio.resources
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio_10.FrmLogin.resources
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.csproj.GenerateResource.cache
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.AssemblyInfoInputs.cache
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.AssemblyInfo.cs
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.pdb
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.genruntimeconfig.cache
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio_10.FrmRegistro.resources
