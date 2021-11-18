@@ -39,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -145,7 +151,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\rafae\\source\\repos\\Ejercicio 10\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\rafae\\source\\repos\\Ejercicio 10\\Datos\\Datos.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
