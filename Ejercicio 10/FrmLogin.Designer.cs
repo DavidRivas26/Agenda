@@ -60,7 +60,7 @@ namespace Ejercicio_10
             this.tblLogin.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.18182F));
             this.tblLogin.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.18182F));
             this.tblLogin.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.27273F));
-            this.tblLogin.Size = new System.Drawing.Size(600, 348);
+            this.tblLogin.Size = new System.Drawing.Size(603, 348);
             this.tblLogin.TabIndex = 2;
             // 
             // txtUsuario
@@ -111,6 +111,7 @@ namespace Ejercicio_10
             this.btnIngresar.TabIndex = 5;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // lblRegistro
             // 
@@ -122,6 +123,7 @@ namespace Ejercicio_10
             this.lblRegistro.Size = new System.Drawing.Size(115, 23);
             this.lblRegistro.TabIndex = 6;
             this.lblRegistro.Text = "Registrarme";
+            this.lblRegistro.Click += new System.EventHandler(this.lblRegistro_Click);
             // 
             // FrmLogin
             // 

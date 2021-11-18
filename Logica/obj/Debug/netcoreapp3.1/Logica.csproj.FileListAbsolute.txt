@@ -7,3 +7,6 @@ C:\Users\rafae\source\repos\Ejercicio 10\Logica\obj\Debug\netcoreapp3.1\Logica.A
 C:\Users\rafae\source\repos\Ejercicio 10\Logica\obj\Debug\netcoreapp3.1\Logica.csproj.CoreCompileInputs.cache
 C:\Users\rafae\source\repos\Ejercicio 10\Logica\obj\Debug\netcoreapp3.1\Logica.dll
 C:\Users\rafae\source\repos\Ejercicio 10\Logica\obj\Debug\netcoreapp3.1\Logica.pdb
+C:\Users\rafae\source\repos\Ejercicio 10\Logica\bin\Debug\netcoreapp3.1\Datos.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Logica\bin\Debug\netcoreapp3.1\Datos.pdb
+C:\Users\rafae\source\repos\Ejercicio 10\Logica\obj\Debug\netcoreapp3.1\Logica.csproj.CopyComplete

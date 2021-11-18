@@ -23,7 +23,7 @@ namespace Datos
 
             comando.Parameters.AddWithValue("@nombre", contacto.Nombre);
             comando.Parameters.AddWithValue("@apellido", contacto.Apellido);
-            comando.Parameters.AddWithValue(" @direccion", contacto.Direccion);
+            comando.Parameters.AddWithValue("@direccion", contacto.Direccion);
             comando.Parameters.AddWithValue("@telefono_personal", contacto.Telefono_Personal);
             comando.Parameters.AddWithValue("@telefono_trabajo", contacto.Telefono_Trabajo);
 
@@ -36,9 +36,10 @@ namespace Datos
 
             SqlCommand comando = new SqlCommand("update Contactos set Nombre=@nombre, Apellido=@apellido, Direccion=@direccion, Telefono_Personal=@telefono_personal, Telefono_Trabajo=@telefono_trabajo where Id=@id", _conexion);
 
+            comando.Parameters.AddWithValue("@id", contacto.Id);
             comando.Parameters.AddWithValue("@nombre", contacto.Nombre);
             comando.Parameters.AddWithValue("@apellido", contacto.Apellido);
-            comando.Parameters.AddWithValue(" @direccion", contacto.Direccion);
+            comando.Parameters.AddWithValue("@direccion", contacto.Direccion);
             comando.Parameters.AddWithValue("@telefono_personal", contacto.Telefono_Personal);
             comando.Parameters.AddWithValue("@telefono_trabajo", contacto.Telefono_Trabajo);
 
@@ -100,7 +101,7 @@ namespace Datos
 
                 _conexion.Open();
 
-                SqlCommand comando = new SqlCommand("select Id, Nombre, Apellido, Direccion, Telefono_Personal, Telefono_Trabajo where Id=@id", _conexion);
+                SqlCommand comando = new SqlCommand("select Id, Nombre, Apellido, Direccion, Telefono_Personal, Telefono_Trabajo from Contactos where Id=@id", _conexion);
                 
                 comando.Parameters.AddWithValue("@id", id);
 

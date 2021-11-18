@@ -20,3 +20,10 @@ C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Lo
 C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Datos.pdb
 C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Logica.pdb
 C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\obj\Debug\netcoreapp3.1\Ejercicio 10.csproj.CopyComplete
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\Ejercicio 10.dll.config
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\rafae\source\repos\Ejercicio 10\Ejercicio 10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

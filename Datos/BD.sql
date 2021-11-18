@@ -43,4 +43,4 @@ select Id, Nombre, Apellido, Direccion, Telefono_Personal, Telefono_Trabajo wher
 
 insert into Usuarios (Nombre, Apellido, Nombre_Usuario, Contra) values (@nombre, @apellido, @usuario, @contra)
 
-select Id, Nombre, Apellido, Nombre_Usuario, Contra where Id=@id
+select count(*) from Usuarios where Nombre_Usuario=@usuario, Contra=@contra

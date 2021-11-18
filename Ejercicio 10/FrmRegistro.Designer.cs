@@ -76,19 +76,19 @@ namespace Ejercicio_10
             this.tblRegistro.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.85141F));
             this.tblRegistro.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.85141F));
             this.tblRegistro.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.020079F));
-            this.tblRegistro.Size = new System.Drawing.Size(713, 495);
+            this.tblRegistro.Size = new System.Drawing.Size(717, 495);
             this.tblRegistro.TabIndex = 3;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(322, 27);
+            this.txtNombre.Location = new System.Drawing.Point(361, 27);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(262, 31);
             this.txtNombre.TabIndex = 0;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(322, 90);
+            this.txtApellido.Location = new System.Drawing.Point(361, 90);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(262, 31);
             this.txtApellido.TabIndex = 1;
@@ -98,7 +98,7 @@ namespace Ejercicio_10
             this.lblNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Trebuchet MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.lblNombre.Location = new System.Drawing.Point(199, 24);
+            this.lblNombre.Location = new System.Drawing.Point(238, 24);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(117, 29);
             this.lblNombre.TabIndex = 2;
@@ -109,7 +109,7 @@ namespace Ejercicio_10
             this.lblApellido.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblApellido.AutoSize = true;
             this.lblApellido.Font = new System.Drawing.Font("Trebuchet MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.lblApellido.Location = new System.Drawing.Point(193, 87);
+            this.lblApellido.Location = new System.Drawing.Point(232, 87);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(123, 29);
             this.lblApellido.TabIndex = 3;
@@ -126,24 +126,26 @@ namespace Ejercicio_10
             this.btnRegistrar.TabIndex = 5;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // lblLogin
             // 
             this.lblLogin.AutoSize = true;
             this.lblLogin.Font = new System.Drawing.Font("Trebuchet MS", 9F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.lblLogin.Location = new System.Drawing.Point(322, 339);
+            this.lblLogin.Location = new System.Drawing.Point(361, 339);
             this.lblLogin.Name = "lblLogin";
             this.lblLogin.Size = new System.Drawing.Size(123, 23);
             this.lblLogin.TabIndex = 6;
             this.lblLogin.Text = "Iniciar Sesión";
+            this.lblLogin.Click += new System.EventHandler(this.lblLogin_Click);
             // 
             // lblUsuario
             // 
             this.lblUsuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Trebuchet MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.lblUsuario.Location = new System.Drawing.Point(200, 150);
+            this.lblUsuario.Location = new System.Drawing.Point(239, 150);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(116, 29);
             this.lblUsuario.TabIndex = 7;
@@ -154,7 +156,7 @@ namespace Ejercicio_10
             this.lblContra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblContra.AutoSize = true;
             this.lblContra.Font = new System.Drawing.Font("Trebuchet MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.lblContra.Location = new System.Drawing.Point(158, 213);
+            this.lblContra.Location = new System.Drawing.Point(197, 213);
             this.lblContra.Name = "lblContra";
             this.lblContra.Size = new System.Drawing.Size(158, 29);
             this.lblContra.TabIndex = 8;
@@ -165,7 +167,7 @@ namespace Ejercicio_10
             this.lblConfirmarContra.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblConfirmarContra.AutoSize = true;
             this.lblConfirmarContra.Font = new System.Drawing.Font("Trebuchet MS", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.lblConfirmarContra.Location = new System.Drawing.Point(35, 276);
+            this.lblConfirmarContra.Location = new System.Drawing.Point(74, 276);
             this.lblConfirmarContra.Name = "lblConfirmarContra";
             this.lblConfirmarContra.Size = new System.Drawing.Size(281, 29);
             this.lblConfirmarContra.TabIndex = 9;
@@ -173,14 +175,14 @@ namespace Ejercicio_10
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(322, 153);
+            this.txtUsuario.Location = new System.Drawing.Point(361, 153);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(262, 31);
             this.txtUsuario.TabIndex = 10;
             // 
             // txtContra
             // 
-            this.txtContra.Location = new System.Drawing.Point(322, 216);
+            this.txtContra.Location = new System.Drawing.Point(361, 216);
             this.txtContra.Name = "txtContra";
             this.txtContra.Size = new System.Drawing.Size(262, 31);
             this.txtContra.TabIndex = 11;
@@ -188,7 +190,7 @@ namespace Ejercicio_10
             // 
             // txtConfirmarContra
             // 
-            this.txtConfirmarContra.Location = new System.Drawing.Point(322, 279);
+            this.txtConfirmarContra.Location = new System.Drawing.Point(361, 279);
             this.txtConfirmarContra.Name = "txtConfirmarContra";
             this.txtConfirmarContra.Size = new System.Drawing.Size(262, 31);
             this.txtConfirmarContra.TabIndex = 12;
